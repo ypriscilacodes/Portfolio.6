@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* Height: 100vh;  igual a 100% do viewport height altura do viewport */
+    background-color: #000000;
+    color: #f6f6f6;
+    box-sizing: border-box;
+    
+}
+
+.apresentacao {
+Display: flex;
+ Align-items: center;
+Justify-content: space-between;
+padding: 10% 8%; /* primeiro parte superior e na sequência a lateral */
+gap: 82px;
+
+
+}
+
+.apresentacao-conteudo {  
+width: 50%;
+display: flex;
+flex-direction: column;  
+gap: 40px;
+}
+.cabecalho {
+padding: 2% 0% 0% 5%;
+
+}
+.cabecalho-menu {
+display: flex;
+gap: 60px;
+
+
+}
+.menu-link {
+font-family: "Montserrat", sans-serif;
+font-size: 1.5rem;
+font-weight: 600;
+color: #22D4FD;
+text-decoration: none;
+}
+
+.apresentacao-titulo {
+font-size: 2.25rem;
+font-family: "Krona One", sans-serif;
+color: #22D4FD;
+text-align:center; 
+padding: 5%;
+
+
+}
+
+.apresentacao-titulo:hover {
+color: yellow;
+}    
+     
+.apresentacao-paragrafo {
+font-size: 1.5rem;
+text-align: justify;  
+font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao-links { 
+display: flex; /* disposição dos elementos */
+flex-direction: column; /*disposição dos elementos em coluna */
+justify-content: space-between; /*espaçamento */
+align-items: center; /* centralizar itens */
+gap: 32px; /* espaçamento entre os ícones */
+}
+
+.apresentacao-links-subtitulo { 
+font-family: "krona one", "sans-serif";
+font-weight: bold;
+font-size: 1.5rem;
+
+}
+.apresentacao-links2 { 
+    width: 50%;
+    text-align: center;  /*alinhamento do botão centralizado */
+    border-radius: 8px; /*arredondamento da borda */
+    font-size: 1.5rem; /*tamanho da fonte */
+    padding: 21.5px 0; /* espaço entre a vertical e a horizontal */
+    text-decoration: none; /* Tirar o link do botão */
+    color:#f6f6f6; /*cor do texto do link */
+    font-family: "Montserrat", sans-serif; /*Fonte do texto do link */
+    font-weight: bold; /*peso da fonte: negrito, itálico... */
+    border: 2px solid #22D4FD; /*borda da apresentação */
+     display: flex;  /*inserir depois dos icones os dois abaixo*/
+     justify-content: center; /*inserir depois do display flex */
+     gap: 16px; /*inserir por ultimo o espaçamento entre os ícones */
+}
+     .apresentacao-links2:hover { /* inserir uma personalização ao botão */
+        background-color: #272727; /*inserir uma cor ao passar o mouse */
+        /*padding: 1%; adicionar um efeito */
+        /* cursor: pointer; pesquisar outros em cursor css */
+  
+    }
+span {
+color: yellow;
+}
+
+.destaque {
+color: orange;
+}
+footer {  /*rodapé */
+text-align: center; 
+background-color: #22D4FD;
+color: black;
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 0.875rem;
+padding: 12px; /*distancia entre a palavra e o fundo */
+}
+ #imagem-principal {
+/*border-radius: 48%; 
+border: 2px solid #22d4fd; */
+/* border-style: solid;
+border-color: #22D4FD;
+/* border-width: 2px; */
+/* border-top-left-radius: 10%;
+border-bottom-right-radius: 10%; */ 
+width: 50%;
+
+}
+.conteudo-texto {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-align: justify;
+    padding: 0% 15%;
+    
+
+}
+
+@media (min-width: 344px) and (max-width: 1080px) {
+
+    body{
+        background-color: purple;
+    }
+
+    .cabecalho {
+    padding: 10%;
+    
+    }
+
+    .cabecalho-menu {
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao-conteudo {
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
